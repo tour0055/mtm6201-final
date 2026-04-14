@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animal Haven Rescue - Contact</title>
+  <meta name="description" content="Contact Animal Haven Rescue to ask questions, book a visit, or begin the adoption process.">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header>
+    <nav class="navbar navbar-expand-lg custom-navbar">
+      <div class="container">
+        <a class="navbar-brand brand-text" href="index.html">Animal Haven Rescue</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main-nav"
+          aria-controls="main-nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="main-nav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="sub-hero-section text-center contact-hero">
+      <div class="hero-overlay">
+        <div class="container">
+          <h1 class="fw-bold">Contact Us</h1>
+          <p class="lead hero-text">
+            Reach out to learn more about adoption, volunteering, or visiting our shelter.
+          </p>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main id="main-content">
+    <section class="py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-9" data-aos="fade-up">
+            <form class="contact-form shadow-sm" action="#" method="post">
+              <h2 class="section-title text-center mb-4">Start Adoption</h2>
+
+              <div class="mb-3">
+                <label for="full-name" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="full-name" name="full-name" required>
+              </div>
+
+              <div class="mb-3">
+                <label for="email-address" class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="email-address" name="email-address" required>
+              </div>
+
+              <div class="mb-3">
+                <label for="phone-number" class="form-label">Phone Number</label>
+                <input type="tel" class="form-control" id="phone-number" name="phone-number">
+              </div>
+
+              <div class="mb-3">
+                <label for="pet-interest" class="form-label">Pet You Are Interested In</label>
+                <select class="form-select" id="pet-interest" name="pet-interest">
+                  <option value="">Select one</option>
+                  <option value="max">Max</option>
+                  <option value="luna">Luna</option>
+                  <option value="sky">Sky</option>
+                  <option value="buddy">Buddy</option>
+                </select>
+              </div>
+
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-custom-primary w-100">Submit Request</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="more-info-section py-5 text-center">
+      <div class="container">
+        <h2 class="section-title">More Information ?</h2>
+        <p class="mb-4">
+          If you are not ready to adopt yet, you can still support our work through volunteering,
+          donations, and community awareness.
+        </p>
+        <a href="about.html" class="btn btn-outline-custom">Learn More</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer py-4">
+    <div class="container d-md-flex justify-content-between align-items-center text-center text-md-start">
+      <div>
+        <p class="mb-1"><strong>Contact Us</strong></p>
+        <p class="mb-1">613-555-7284</p>
+        <p class="mb-0">animalhaven@email.com</p>
+      </div>
+      <p class="mb-0 mt-3 mt-md-0">&copy; 2026 Animal Haven Rescue</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

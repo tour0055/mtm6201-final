@@ -1,0 +1,249 @@
+:root {
+    --bs-primary: #159b22;
+    --bs-secondary: #b9681f;
+    --bs-body-bg: #b9681f;
+    --bs-body-color: #111111;
+    --main-green: #159b22;
+    --main-orange: #b9681f;
+    --main-white: #ffffff;
+    --dark-text: #111111;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+    background-color: var(--main-orange);
+    color: var(--dark-text);
+    line-height: 1.6;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .skip-link {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    background: #000;
+    color: #fff;
+    padding: 0.75rem 1rem;
+    z-index: 9999;
+    text-decoration: none;
+  }
+  
+  .skip-link:focus {
+    left: 1rem;
+    top: 1rem;
+  }
+  
+  .custom-navbar {
+    background-color: var(--main-green);
+  }
+  
+  .brand-text,
+  .navbar .nav-link {
+    color: var(--main-white) !important;
+    font-weight: 600;
+  }
+  
+  .navbar .nav-link:hover,
+  .navbar .nav-link:focus,
+  .navbar .nav-link.active {
+    text-decoration: underline;
+  }
+  
+  .navbar-toggler {
+    background-color: rgba(255, 255, 255, 0.85);
+  }
+  
+  .hero-section,
+  .sub-hero-section {
+    background-image: url("../images/dog-1.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contact-hero {
+    background-image: url("../images/beagle-1.png");
+  }
+  
+  .hero-overlay {
+    width: 100%;
+    background-color: rgba(185, 104, 31, 0.68);
+    padding: 3rem 1rem;
+  }
+  
+  .hero-section h1,
+  .sub-hero-section h1,
+  .hero-text {
+    color: #111111;
+  }
+  
+  .section-title {
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  
+  .gallery-section {
+    background-color: var(--main-orange);
+  }
+  
+  .pet-card {
+    background-color: var(--main-green);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    height: 100%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+  }
+  
+  .pet-image {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border: 4px solid #1d8d26;
+    background-color: #fff;
+  }
+  
+  .pet-name {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #111111;
+  }
+  
+  .pet-role {
+    font-size: 0.95rem;
+    color: #111111;
+  }
+  
+  .home-info-section {
+    background-color: var(--main-green);
+    color: #111111;
+    font-weight: 500;
+  }
+  
+  .btn-custom-primary {
+    background-color: var(--main-green);
+    color: #ffffff;
+    border: 2px solid var(--main-green);
+    padding: 0.7rem 1.4rem;
+    font-weight: 600;
+  }
+  
+  .btn-custom-primary:hover,
+  .btn-custom-primary:focus {
+    background-color: #0f7e1b;
+    border-color: #0f7e1b;
+    color: #ffffff;
+  }
+  
+  .btn-adopt {
+    background-color: #111111;
+    color: #ffffff;
+    border: 1px solid #111111;
+    font-size: 0.9rem;
+    padding: 0.45rem 1rem;
+  }
+  
+  .btn-adopt:hover,
+  .btn-adopt:focus {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
+  .btn-outline-custom {
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    background: transparent;
+    padding: 0.7rem 1.3rem;
+    font-weight: 600;
+  }
+  
+  .btn-outline-custom:hover,
+  .btn-outline-custom:focus {
+    background-color: #ffffff;
+    color: var(--main-orange);
+  }
+  
+  .info-block {
+    border-bottom: 2px solid #2c1b0f;
+    padding-bottom: 1rem;
+  }
+  
+  .about-gallery-img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border: 4px solid var(--main-green);
+  }
+  
+  .testimonial-text {
+    font-style: italic;
+    margin-bottom: 0;
+  }
+  
+  .contact-form {
+    background-color: var(--main-white);
+    padding: 2rem;
+    border-radius: 0.35rem;
+  }
+  
+  .form-control,
+  .form-select {
+    border-radius: 0;
+  }
+  
+  .form-control:focus,
+  .form-select:focus,
+  .btn:focus,
+  .nav-link:focus {
+    outline: 3px solid #000000;
+    outline-offset: 2px;
+    box-shadow: none;
+  }
+  
+  .more-info-section {
+    background-color: var(--main-orange);
+    color: #ffffff;
+  }
+  
+  .site-footer {
+    background-color: var(--main-green);
+    color: #111111;
+    font-size: 0.95rem;
+  }
+  
+  @media (min-width: 768px) {
+    .hero-section,
+    .sub-hero-section {
+      min-height: 330px;
+    }
+  
+    .hero-overlay {
+      padding: 4rem 2rem;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .hero-section h1,
+    .sub-hero-section h1 {
+      max-width: 800px;
+      margin-inline: auto;
+    }
+  
+    .hero-text {
+      max-width: 760px;
+      margin-inline: auto;
+    }
+  }
