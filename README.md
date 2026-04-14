@@ -8,7 +8,7 @@ This project is a responsive website created for Animal Haven Rescue, an animal 
 
 The goal of this project was to translate a UX design created in Figma into a fully functional website using Bootstrap. The website includes three main pages: Home, About, and Contact, each designed to provide a clear and user-friendly experience.
 
----
+
 
 ## My Process
 
@@ -20,7 +20,7 @@ From there, I focused on translating that design into code by:
  Applying consistent colors and styling using custom CSS
  Making sure the site worked well across different screen sizes
 
----
+
 
 ## Challenges & Solutions
 
@@ -33,7 +33,7 @@ I also focused on accessibility by adding:
  labels for form inputs
  a skip link for keyboard navigation
 
----
+
 
 ## What I Learned
 
@@ -45,7 +45,7 @@ Use Bootstrap effectively for layout and responsiveness
 
 This project helped me better understand the connection between design and development.
 
----
+
 
 ## Technologies Used
 
@@ -55,7 +55,7 @@ This project helped me better understand the connection between design and devel
  AOS (Animate On Scroll Library)
  Google Fonts
 
----
+
 
 ## Assets & Resources
 
@@ -66,7 +66,7 @@ External resources used:
  AOS Library: https://michalsnik.github.io/aos/
  Google Fonts: https://fonts.google.com/
 
----
+
 
 ## Figma Design
 
@@ -76,13 +76,13 @@ Figma prototype used as reference for this project:
 
 The design guided the structure, layout, and overall user experience of the final website.
 
----
+
 
 ## Live Website
 
- (PASTE YOUR GITHUB PAGES LINK HERE)
+ (https://tour0055.github.io/mtm6201-final/)
 
----
+
 
 ## Final Notes
 
